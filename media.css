@@ -1,0 +1,37 @@
+
+
+@media (max-width: 1120px){
+    .wrapper header .nav-mid, .wrapper header .nav-right a {
+        display: none;
+    }
+}
+
+
+
+
+
+
+
+
+
+@media (max-width: 575px){
+    .wrapper .section-2 .container{
+        display: block;
+        width: 100%;
+    }
+    .wrapper .section-2 .container .div-right{
+        background-color: #fff;
+        width: 100%;
+    }
+    .wrapper .section-2 .container-2 {
+        display: block;
+    }
+    .wrapper .section-2 .container-2 .lll{
+        width: 100%;
+    }
+
+    .wrapper .section-4 .sect-4-top .sect-4-bottom .card-grid-art{
+        display: block;
+        width: 100%;
+    }
+}
