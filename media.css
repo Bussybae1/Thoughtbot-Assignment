@@ -1,19 +1,8 @@
-
-
 @media (max-width: 1120px){
     .wrapper header .nav-mid, .wrapper header .nav-right a {
         display: none;
     }
 }
-
-
-
-
-
-
-
-
-
 @media (max-width: 575px){
     .wrapper .section-2 .container{
         display: block;
@@ -26,12 +15,19 @@
     .wrapper .section-2 .container-2 {
         display: block;
     }
-    .wrapper .section-2 .container-2 .lll{
+    .wrapper .section-2 .container-2{
         width: 100%;
+        margin-top: 300px;
     }
-
+    .wrapper .section-2 .container-2 :nth-of-type(2){
+        margin-top: 60px;
+    }
     .wrapper .section-4 .sect-4-top .sect-4-bottom .card-grid-art{
         display: block;
         width: 100%;
     }
 }
+
+
+
+
